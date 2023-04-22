@@ -31,6 +31,8 @@ body {
   height: 100%;
   z-index: -1;
 }
+
+/* Keyframe */
 @-webkit-keyframes AnimationName {
   0% {
     background-position: 51% 0%;
@@ -75,6 +77,8 @@ body {
     background-position: 51% 0%;
   }
 }
+
+/* Reset CSS */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -96,6 +100,8 @@ hr {
   right: 0;
   z-index: 0;
 }
+
+/* Background Animated */
 #Background {
   margin: 0;
   width: 100%;
@@ -195,6 +201,8 @@ hr {
   -o-animation-delay: -18s;
   animation-delay: -18s;
 }
+
+/* Animated */
 @-webkit-keyframes warp {
   from {
     opacity: 0;
@@ -245,6 +253,8 @@ hr {
     transform: rotate(30deg) translateZ(300px);
   }
 }
+
+/* Modal */
 #modal-dialog {
   display: flex;
   margin: auto;
@@ -318,6 +328,8 @@ hr {
   background: #333;
   transition: all 0.2s linear;
 }
+
+/* Responsive */
 @media screen and (max-width: 728px) {
   #modal-dialog,
   .modal-dialog-wrap {
