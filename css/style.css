@@ -6,6 +6,10 @@
 html {
   display: block;
 }
+a:link, a:visited, a:focus{
+	color:#000;
+	text-decoration: none;
+}
 body {
   margin: 0 auto;
   display: block;
@@ -252,6 +256,12 @@ hr {
   align-items: center;
   flex-wrap: nowrap;
 }
+.modal-dialog-header {
+    font-size: 1.5em;
+    margin: 0 auto 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #555;
+}
 .modal-dialog-wrap {
   display: block;
   background-color: rgba(255, 255, 255, 0.55);
@@ -260,6 +270,7 @@ hr {
   text-align: center;
   font-family: monospace;
   color: #111;
+  border-radius: 10px;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.8);
   z-index: 101;
 }
@@ -269,6 +280,7 @@ hr {
   list-style: none;
   padding: 5px;
   margin: 20px auto 0;
+  border-radius: 10px;
   background: rgba(255, 255, 255, 0.45);
   align-items: center;
   align-content: center;
